@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { CountdownTimerComponent } from './countdown-timer/countdown-timer.component';
 import { CountdownParentLvComponent } from './countdown-parent-lv/countdown-parent-lv.component';
 import { CountdownParentVcComponent } from './countdown-parent-vc/countdown-parent-vc.component';
+import { MissionControlComponent } from './mission-control/mission-control.component';
+import { AstronautComponent } from './astronaut/astronaut.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CountdownTimerComponent,
     CountdownParentLvComponent,
-    CountdownParentVcComponent
+    CountdownParentVcComponent,
+    MissionControlComponent,
+    AstronautComponent
   ],
   imports: [
     BrowserModule,
