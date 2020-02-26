@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CountdownParentComponent } from './countdown-parent.component';
+import { CountdownParentLvComponent } from './countdown-parent-lv.component';
 
-describe('CountdownParentComponent', () => {
-  let component: CountdownParentComponent;
-  let fixture: ComponentFixture<CountdownParentComponent>;
+describe('CountdownParentLvComponent', () => {
+  let component: CountdownParentLvComponent;
+  let fixture: ComponentFixture<CountdownParentLvComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CountdownParentComponent ]
+      declarations: [ CountdownParentLvComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CountdownParentComponent);
+    fixture = TestBed.createComponent(CountdownParentLvComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
