@@ -7,7 +7,7 @@ import {CountdownTimerComponent} from '../countdown-timer/countdown-timer.compon
   styleUrls: ['./countdown-parent-vc.component.css']
 })
 export class CountdownParentVcComponent implements AfterViewInit {
-  @ViewChild(CountdownTimerComponent, { static: false })
+  @ViewChild(CountdownTimerComponent)
   private timerComponent: CountdownTimerComponent;
 
   seconds() {
